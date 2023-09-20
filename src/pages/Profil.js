@@ -1,8 +1,12 @@
- import React from 'react'
+ import React from 'react';
+ import Navbar from '../components/Navbar'
  
  function Profil() {
    return (
-     <div>Profil</div>
+     <div>
+      <h1>Profil</h1>
+      <Navbar />
+     </div>
    )
  }
  
